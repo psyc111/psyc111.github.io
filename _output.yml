@@ -1,7 +1,14 @@
 bookdown::bs4_book:
   css: bs4_style.css
-  theme:
-    primary: "#096B72"
+  theme: 
+    # Controls the default grayscale palette
+    #bg: "#413e3d" 
+    #fg:  "#DAD6D5"
+    #primary: "#E05537" #red
+    bg: "#2d2b2a"
+    fg: "#DAD6D5"
+    primary: "#37A5EC"
+    #secondary: "#379EE0"
   repo: https://github.com/psyc111/psyc111.github.io
 bookdown::pdf_book:
   includes:
