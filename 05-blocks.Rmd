@@ -34,7 +34,7 @@ You can use **markdown** inside a block.
 
 ```{r collapse=TRUE}
 #head(beaver1, n = 5)
-head(lock5withR::StudentSurvey, n = 5)
+head(Lock5withR::StudentSurvey, n = 5)
 ```
 
 :::
