@@ -1,6 +1,6 @@
 --- 
 title: "A Minimal Book Example"
-author: "John Doe"
+author: "Ethan Hurwitz"
 date: "2022-02-06"
 site: bookdown::bookdown_site
 documentclass: book
