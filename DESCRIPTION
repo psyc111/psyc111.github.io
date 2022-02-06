@@ -1,0 +1,24 @@
+Package: Psyc193L
+Type: Course Website
+Title: Psyc193L Course Website
+Version: 0.1
+Imports: 
+  bookdown, 
+  bslib,
+  broom,
+  devtools,
+  downlit,
+  gapminder,
+  ggsignif,
+  gridExtra,
+  latex2exp,
+  magrittr,
+  rmarkdown,
+  scales,
+  testthat,
+  tidyverse,
+  xml2,
+  zeallot
+Remotes: 
+    rstudio/bookdown,
+    rstudio/rmarkdown
