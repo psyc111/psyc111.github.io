@@ -12,6 +12,7 @@ Imports:
   ggsignif,
   gridExtra,
   latex2exp,
+  lock5withR,
   magrittr,
   rmarkdown,
   scales,
