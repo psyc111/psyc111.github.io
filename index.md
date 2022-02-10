@@ -1,7 +1,7 @@
 --- 
 title: "A Minimal Book Example"
 author: "Ethan Hurwitz"
-date: "2022-02-06"
+date: "2022-02-10"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]

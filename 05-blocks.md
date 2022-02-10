@@ -34,13 +34,26 @@ You can use **markdown** inside a block.
 
 
 ```r
-head(beaver1, n = 5)
-#>   day time  temp activ
-#> 1 346  840 36.33     0
-#> 2 346  850 36.34     0
-#> 3 346  900 36.35     0
-#> 4 346  910 36.42     0
-#> 5 346  920 36.55     0
+#head(beaver1, n = 5)
+head(Lock5withR::StudentSurvey, n = 5)
+#>        Year Gender Smoke   Award HigherSAT Exercise TV
+#> 1    Senior      M    No Olympic      Math       10  1
+#> 2 Sophomore      F   Yes Academy      Math        4  7
+#> 3 FirstYear      M    No   Nobel      Math       14  5
+#> 4    Junior      M    No   Nobel      Math        3  1
+#> 5 Sophomore      F    No   Nobel    Verbal        3  3
+#>   Height Weight Siblings BirthOrder VerbalSAT MathSAT  SAT
+#> 1     71    180        4          4       540     670 1210
+#> 2     66    120        2          2       520     630 1150
+#> 3     72    208        2          1       550     560 1110
+#> 4     63    110        1          1       490     630 1120
+#> 5     65    150        1          1       720     450 1170
+#>    GPA Pulse Piercings    Sex
+#> 1 3.13    54         0   Male
+#> 2 2.50    66         3 Female
+#> 3 2.55   130         0   Male
+#> 4 3.10    78         0   Male
+#> 5 2.70    40         6 Female
 ```
 
 :::
